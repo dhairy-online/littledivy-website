@@ -10,7 +10,7 @@ pages.publish(
       email: "dhairysrivastava5@gmail.com", // Update to use your email
     },
   },
-  () => {
-    console.log("Deploy Complete!");
+  (branch) => {
+    console.log(branch);
   }
 );
