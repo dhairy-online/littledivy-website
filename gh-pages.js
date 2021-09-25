@@ -3,7 +3,7 @@ let pages = require("gh-pages");
 pages.publish(
   "public", // path to public directory
   {
-    branch: "main",
+    branch: "pages",
     repo: "https://github.com/dhairy-online/littledivy-website.git", // Update to point to your repository
     user: {
       name: "dhairy-online", // update to use your name
