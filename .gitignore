@@ -1,4 +1,4 @@
 /node_modules/
-# /public/build/ for deploy
+/public/build/ 
 
 .DS_Store
