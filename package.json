@@ -6,7 +6,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier -w ."
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -31,6 +32,8 @@
   "dependencies": {
     "daisyui": "^1.14.1",
     "gh-pages": "^3.2.3",
+    "global": "^4.4.0",
+    "prettier": "^2.4.1",
     "sirv-cli": "^1.0.0"
   }
 }
